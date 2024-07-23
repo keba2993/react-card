@@ -1,0 +1,116 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
+}
+
+.container {
+	background: #1a1b21;
+	padding-bottom: 20px;
+}
+
+.info-img {
+	width: 317px;
+	height: 317px;
+	border-radius: 10px 10px 0 0;
+	object-fit: cover;
+}
+
+.info-name {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30.26px;
+	color: white;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+.info-title {
+	color: #f3bf99;
+	font-size: 12.8px;
+	font-weight: 400;
+	line-height: 15.49px;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+.info-website {
+	margin-top: 4px;
+	color: #f5f5f5;
+	font-size: 10.24px;
+	font-weight: 400;
+	line-height: 15.36px;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto 0 auto;
+}
+
+#email-btn {
+	background-color: white;
+	color: #374151;
+	border: 1px solid #d1d5db;
+	width: 115px;
+	height: 34px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 16px;
+}
+
+#linkedIn-btn {
+	background: #5093e2;
+	color: white;
+	width: 115px;
+	height: 34px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-icon {
+	padding-right: 4px;
+}
+
+.section-header {
+	color: #f5f5f5;
+	margin: 0;
+	padding-left: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+}
+
+p {
+	max-width: 237px;
+	padding: 0 40px;
+	font-size: 10.24px;
+	font-weight: 400;
+	line-height: 15.36px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.footer-container {
+	height: 64px;
+	border-radius: 0px 0px 10px 10px;
+	background: #161619;
+	color: #918e9b;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.footer-container > .fa-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.footer-container > .fa-icon:hover {
+	color: white;
+}
